@@ -75,26 +75,26 @@ html {
 .bttn.primary{
   display: inline-block;
   width: max-content;
-  background: #21A69A;
+  background: #0097B2;
   border: none;
   color: white;
   box-shadow: -3px 3px 5px rgb(35 33 33 / 23%);
 }
 
 .bttn.primary:hover {
-  background: #21a69a;
+  background: #ffe000;
   box-shadow: inset 3px 4px 10px rgb(35 33 33 / 40%);
   /* -webkit-box-shadow: inset 3px 4px 10px rgb(35 33 33 / 40%); */
 }
 
 .bttn.secondary{
   background: transparent;
-  border: #093C4F 2px solid;
-  color: #0D1D24;
+  border: #5932A8 2px solid;
+  color: #5932A8;
 }
 
 .bttn.secondary:hover {
-  background: #05171f;
+  background: #B799F4;
   color: white;
 }
 
