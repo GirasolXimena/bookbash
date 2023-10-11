@@ -61,13 +61,18 @@ html {
 }
 
 .bttns{
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  align-items: center;
   margin-bottom: 5%;
+  flex-wrap: wrap;
 }
 
 .bttn{
   padding: 15px;
   border-radius: 5px;
-  width: 150px;
+  width: max-content;
   margin: 0 1%;
   text-decoration: none;
 }
