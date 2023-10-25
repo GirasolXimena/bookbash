@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     // Enable top-level await, and other modern ESM features.
+    "jsx": "react-jsx",
     "target": "ESNext",
     "module": "ESNext",
     // Enable node-style module resolution, for things like npm package imports.
@@ -10,6 +11,9 @@
     // Enable stricter transpilation for better output.
     "isolatedModules": true,
     // Add type definitions for our Vite runtime.
-    "types": ["vite/client"]
+    "types": [
+      "vite/client"
+    ],
+    "jsxImportSource": "react"
   }
 }
